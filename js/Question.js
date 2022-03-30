@@ -1,3 +1,4 @@
+
 class Question {
 
   constructor() {
@@ -47,9 +48,9 @@ class Question {
     this.button.mousePressed(()=>{
       
       this.message.html("Obrigado, Sua Resposta Foi Enviada");
-      this.message.position(350, 350);
+      this.message.position(width / 2 - 350, 350);//350, 350
 
     });
   }
-  
+
 }
